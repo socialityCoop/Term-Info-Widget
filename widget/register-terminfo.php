@@ -1,9 +1,6 @@
 <?php
 /* Info Term Widget - Register the widget 
- * Wordpress 2.8 and above
- * @see http://codex.wordpress.org/Widgets_API#Developing_Widgets
  */
-
 
 class Terminfo_Widget extends WP_Widget {
 	
@@ -23,6 +20,14 @@ class Terminfo_Widget extends WP_Widget {
 		$taxonomy = $instance['taxonomy'];
 		$display = $instance['where_to_display'];
 
+		//Get template from theme
+		$template = locate_template( array( 'terminfo-widget/terminfo-display.php') );
+
+		//if not use initial
+		if(!$template){
+			$template = plugin_dir_path( __FILE__ ).'../template/terminfo-display.php';
+		}
+
 		//Check if the page we are on is single or term
 		if (is_single()){
 			
@@ -34,18 +39,14 @@ class Terminfo_Widget extends WP_Widget {
 			if ($display == 'show_archive'){
 				//Do nothing
 			}else{
-				//Show before widget
-				echo $args['before_widget'];
-				if ( ! empty( $title ) ){
-					echo $args['before_title'] . $title . $args['after_title'];
-				}
+
 				//Get Post Terms
 				$post_terms = wp_get_post_terms($post_id,$taxonomy);
 
-				
-				echo $post_terms[0]->name;
-				echo '<br>';
-				echo $post_terms[0]->description;
+				//Include template - Overide from template/terminfo-display.php
+				if( $template ){
+					include($template);
+				} 
 
 			}
 
@@ -56,23 +57,20 @@ class Terminfo_Widget extends WP_Widget {
 				//Do nothing
 			}else{
 				//Get current term
-				$archive = get_queried_object();
+				$term = get_queried_object();
 
 				//If queried object is from our taxonomy we display the widget
-				if ($archive->taxonomy == $taxonomy  ) {
-					//Show before widget
-					echo $args['before_widget'];
-					if ( ! empty( $title ) ){
-						echo $args['before_title'] . $title . $args['after_title'];
-					}
-					echo $archive->name;
-					echo '<br>';
-					echo $archive->description;
+				if ($term->taxonomy == $taxonomy  ) {
+
+					//Include template - Overide from template/terminfo-display.php
+					if( $template ){
+						include($template);
+					} 
 				}
 				
 			}
 		}
-		echo $args['after_widget'];
+
 	}
 
 	//3. Widget Backend 

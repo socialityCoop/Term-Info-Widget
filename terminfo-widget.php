@@ -9,8 +9,8 @@ Version: 1.0
 */
 
 /**
- * 1. Register the widget
+ * Register the widget
  */
-require plugin_dir_path( __FILE__ ) . 'widget/register-terminfo.php';
+require plugin_dir_path( __FILE__ ).'widget/register-terminfo.php';
 
 ?>
