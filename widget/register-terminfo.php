@@ -20,12 +20,16 @@ class Terminfo_Widget extends WP_Widget {
 		$taxonomy = $instance['taxonomy'];
 		$display = $instance['where_to_display'];
 
-		//Get template from theme
-		$template = locate_template( array( 'terminfo-widget/terminfo-display.php') );
+		//Enqueue_style
+		wp_enqueue_style('register_terminfo',plugins_url( '../assets/css/style.css', __FILE__ ) );
+
+
+		//Get templates from theme
+		$templates = locate_template( array( 'terminfo-widget/terminfo-display.php') );
 
 		//if not use initial
-		if(!$template){
-			$template = plugin_dir_path( __FILE__ ).'../template/terminfo-display.php';
+		if(!$templates){
+			$templates = plugin_dir_path( __FILE__ ).'../templates/terminfo-display.php';
 		}
 
 		//Check if the page we are on is single or term
@@ -43,9 +47,9 @@ class Terminfo_Widget extends WP_Widget {
 				//Get Post Terms
 				$post_terms = wp_get_post_terms($post_id,$taxonomy);
 
-				//Include template - Overide from template/terminfo-display.php
-				if( $template ){
-					include($template);
+				//Include templates - Overide from templates/terminfo-display.php
+				if( $templates ){
+					include($templates);
 				} 
 
 			}
@@ -62,9 +66,9 @@ class Terminfo_Widget extends WP_Widget {
 				//If queried object is from our taxonomy we display the widget
 				if ($term->taxonomy == $taxonomy  ) {
 
-					//Include template - Overide from template/terminfo-display.php
-					if( $template ){
-						include($template);
+					//Include templates - Overide from templates/terminfo-display.php
+					if( $templates ){
+						include($templates);
 					} 
 				}
 				
