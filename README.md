@@ -1,20 +1,15 @@
 
 # [Term Info Widget](https:///github.com/socialityDev/Term-Info-Widget/)
-Contributors:
-Tags:
-Requires at least: 1.0
-Tested up to: 1.0
-Stable tag: 1.0.0
-License: GPLv3
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
+* Contributors:
+* Tags:
+* Requires at least: 1.0
+* Tested up to: 1.0
+* Stable tag: 1.0.0
+* License: GPLv3
+* License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Term Info Widget is a widget that displays the current term information, in both term pages and single posts
 
-## Installation 
-
-* Intall: Initate it by placing it in a widget area. 
-* Options: You can shoose which taxonomy to display and where to display (term page or single) from the backend
-* Extent: You can extent the widget by recreating the template file and adding any extra term meta
 
 ## Installation 
 
@@ -37,6 +32,13 @@ The manual installation method involves downloading our #[plugin](https:///githu
 ## Updating 
 
 Automatic updates should work like a charm; as always though, ensure you backup your site just in case.
+
+
+## Use 
+
+* Intall: Initate it by placing it in a widget area. 
+* Options: You can shoose which taxonomy to display and where to display (term page or single) from the backend
+* Extent: You can extent the widget by recreating the template file and adding any extra term meta
 
 ## Can I contribute? 
 
