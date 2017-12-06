@@ -27,7 +27,7 @@ In the search field type “Term Info Widget” and click Search Plugins. Once y
 
 ### Manual installation 
 
-The manual installation method involves downloading our #[plugin](https:///github.com/socialityDev/Term-Info-Widget/) and uploading it to your webserver via your favourite FTP application. The WordPress codex contains [instructions on how to do this here](https://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation).
+The manual installation method involves downloading our [plugin](https:///github.com/socialityDev/Term-Info-Widget/) and uploading it to your webserver via your favourite FTP application. The WordPress codex contains [instructions on how to do this here](https://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation).
 
 ## Updating 
 
