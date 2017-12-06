@@ -1,14 +1,14 @@
 
 # [Term Info Widget](https:///github.com/socialityDev/Term-Info-Widget/)
-* Contributors: Sociality
-* Tags: Wordpress , Widget , Plugin , PHP , Sociality
-* Requires at least: 1.0
-* Tested up to: 1.0
-* Stable tag: 1.0.0
-* License: GPLv3
-* License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Contributors: Sociality
+Tags: Wordpress , Widget , Plugin , PHP , Sociality
+Requires at least: 1.0
+Tested up to: 1.0
+Stable tag: 1.0.0
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Term Info Widget is a widget that displays the current term information, in both term pages and single posts
+T:-AHSNCm95erm Info Widget is a widget that displays the current term information, in both term pages and single posts
 
 
 ## Installation 
