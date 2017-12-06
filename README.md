@@ -35,12 +35,9 @@ Automatic updates should work like a charm; as always though, ensure you backup 
 
 ### Use 
 
-* Install: Initate it by placing it in a widget area. 
-* Options: You can shoose which taxonomy to display and where to display (term page or single) from the backend
-* Extent: You can extent the widget by recreating the template file and adding any extra term meta
-
-##### Overide Theme Template
-* The template can be overridden by copying it to yourtheme/terminfo-widget/terminfo-display.php. 
+* Install: Initiate it by placing it in a widget area. 
+* Options: You can choose which taxonomy to display and where to display (term page or single) from the backend
+* Extent: The template can be overridden by copying it to yourtheme/terminfo-widget/terminfo-display.php.
 
 ## Can I contribute? 
 
