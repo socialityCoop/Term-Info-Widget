@@ -8,7 +8,7 @@
 - License: GPLv3
 - License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Term Info Widget is a widget that displays the current term information, in both term pages and single posts
+Term Info Widget is a widget for Wordpress that displays the current term information, in both term pages and single posts
 
 
 ## Installation 
