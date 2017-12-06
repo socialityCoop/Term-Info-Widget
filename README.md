@@ -11,34 +11,36 @@
 Term Info Widget is a widget for Wordpress that displays the current term information, in both term pages and single posts
 
 
-## Installation 
+### Installation 
 
-### Minimum Requirements 
+##### Minimum Requirements 
 
 * PHP version 5.2.4 or greater (PHP 5.6 or greater is recommended)
 * MySQL version 5.0 or greater (MySQL 5.6 or greater is recommended)
 * WordPress 4.4+
 
-### Automatic installation 
+##### Automatic installation 
 
 Automatic installation is the easiest option as WordPress handles the file transfers itself and you don’t need to leave your web browser. To do an automatic install of Term Info Widget, log in to your WordPress dashboard, navigate to the Plugins menu and click Add New.
 
 In the search field type “Term Info Widget” and click Search Plugins. Once you’ve found our plugin you can view details about it such as the point release, rating and description. Most importantly of course, you can install it by simply clicking “Install Now”.
 
-### Manual installation 
+##### Manual installation 
 
 The manual installation method involves downloading our [plugin](https:///github.com/socialityDev/Term-Info-Widget/) and uploading it to your webserver via your favourite FTP application. The WordPress codex contains [instructions on how to do this here](https://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation).
 
-## Updating 
+### Updating 
 
 Automatic updates should work like a charm; as always though, ensure you backup your site just in case.
 
-
-## Use 
+### Use 
 
 * Install: Initate it by placing it in a widget area. 
 * Options: You can shoose which taxonomy to display and where to display (term page or single) from the backend
-* Extent: You can extent the widget by recreating the template file and adding any extra term meta
+* Extent: You can extent the widget by copying it to yourtheme/terminfo-widget/terminfo-display.php.
+
+##### Overide Theme Template
+* The template can be overridden by copying it to yourtheme/terminfo-widget/terminfo-display.php. 
 
 ## Can I contribute? 
 
