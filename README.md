@@ -1,5 +1,5 @@
 
-# [Term Info Widget](https:///github.com/socialityDev/Term-Info-Widget/)
+# [Term Info Widget](https:///github.com/socialityCoop/Term-Info-Widget/)
 - Contributors: Sociality
 - Tags: Wordpress , Widget , Plugin , PHP , Sociality
 - Requires at least: 1.0
@@ -17,7 +17,7 @@ Term Info Widget is a widget for Wordpress that displays the current term inform
 
 * PHP version 5.2.4 or greater (PHP 5.6 or greater is recommended)
 * MySQL version 5.0 or greater (MySQL 5.6 or greater is recommended)
-* WordPress 4.4+
+* WordPress 4.9
 
 ##### Automatic installation 
 
@@ -27,7 +27,7 @@ In the search field type “Term Info Widget” and click Search Plugins. Once y
 
 ##### Manual installation 
 
-The manual installation method involves downloading our [plugin](https:///github.com/socialityDev/Term-Info-Widget/) and uploading it to your webserver via your favourite FTP application. The WordPress codex contains [instructions on how to do this here](https://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation).
+The manual installation method involves downloading our [plugin](https:///github.com/socialityCoop/Term-Info-Widget/) and uploading it to your webserver via your favourite FTP application. The WordPress codex contains [instructions on how to do this here](https://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation).
 
 ### Updating 
 
@@ -41,4 +41,4 @@ Automatic updates should work like a charm; as always though, ensure you backup 
 
 ## Can I contribute? 
 
-Yes you can! Join in on our [GitHub repository](https:///github.com/socialityDev/Term-Info-Widget/) :)
+Yes you can! Join in on our [GitHub repository](https:///github.com/socialityCoop/Term-Info-Widget/) :)
