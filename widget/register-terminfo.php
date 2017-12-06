@@ -20,7 +20,7 @@ class Terminfo_Widget extends WP_Widget {
 		$taxonomy = $instance['taxonomy'];
 		$display = $instance['where_to_display'];
 
-		//Enqueue_style
+		//Enqueue_style_from_/assets/style.css
 		wp_enqueue_style('register_terminfo',plugins_url( '../assets/css/style.css', __FILE__ ) );
 
 
