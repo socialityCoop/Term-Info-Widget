@@ -34,24 +34,24 @@ echo $args['before_widget'];
 
 //Display for single post
 	if (is_single()): ?>
-	<div class="tiw-single">
-		<?php /* We choose to display the first term, which is the primary in an hierarchical taxonomy  */ ?>
-		<h3 class="tiw-title" ><?php echo $post_terms[0]->name; ?></h3>
-		<p class="tiw-content"><?php echo $post_terms[0]->description; ?></p>
-	</div>
-	<?php 
+		<div class="tiw-single">
+			<?php /* We choose to display the first term, which is the primary in an hierarchical taxonomy  */ ?>
+			<h3 class="tiw-title" ><?php echo $post_terms[0]->name; ?></h3>
+			<p class="tiw-content"><?php echo nl2br($post_terms[0]->description); ?></p>
+		</div>
+		<?php 
 //Display for term page
-	elseif(is_archive()): ?>
-	<div class="tiw-term">
-		<h3 class="tiw-title"><?php echo $term->name; ?></h3>
-		<p class="tiw-content"><?php echo $term->description; ?></p>
+		elseif(is_archive()): ?>
+			<div class="tiw-term">
+				<h3 class="tiw-title"><?php echo $term->name; ?></h3>
+				<p class="tiw-content"><?php echo nl2br($term->description); ?></p>
+			</div>
+		<?php endif; 
+		?>
+
 	</div>
-<?php endif; 
-?>
 
-</div>
-
-<?php
+	<?php
 
 //Show after widget
-echo $args['after_widget'];?>
+	echo $args['after_widget'];?>
