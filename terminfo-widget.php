@@ -5,7 +5,7 @@ Description: A widget that displays the current term information, in both term p
 Author: Sociality
 Author URI: http://plugins.sociality.gr/
 Text Domain: terminfo-widget
-Version: 1.0
+Version: 1.1
 */
 
 /**
