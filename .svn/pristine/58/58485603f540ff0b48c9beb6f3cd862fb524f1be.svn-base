@@ -1,0 +1,9 @@
+.tiw-title {
+	text-align: center;
+	font-weight: bold;
+}
+
+.tiw-content {
+	margin-bottom: 10px;
+	padding: 0;
+}
